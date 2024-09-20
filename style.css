@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+
+  box-shadow: 5px 5px 10px #555;
+}
+label {
+  font-size: 22px;
+  margin-left: 5px;
+}
+input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+input:hover {
+  border-color: #5cb85c;
+}
+
+button {
+  background-color: #5cb85c;
+  color: black;
+  width: 100px;
+  padding: 5px 0px 5px 0px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+button:hover {
+  background-color: #5cb89c;
+  cursor: pointer;
+}
